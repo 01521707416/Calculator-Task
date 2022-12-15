@@ -4,14 +4,14 @@
 <!-- ID: 193-16-464 -->
 
 <head>
-    <!-- The logical part for sum funtion inside the <script> tag -->
+    <!-- The logical part for division function inside the <script> tag -->
     <script>
         function add() {
-            var numOne, numTwo, sum;  // variable declaration
+            var numOne, numTwo, div;  // variable declaration
             numOne = parseInt(document.getElementById("first").value);  // catching user input
             numTwo = parseInt(document.getElementById("second").value); // catching user input
-            sum = numOne + numTwo;                                      // adding two numbers
-            document.getElementById("answer").value = sum;              // storing the sum result
+            division = numOne / numTwo;                                      // adding two numbers
+            document.getElementById("answer").value = division;              // storing the division result
         }
     </script>
 </head>
@@ -27,8 +27,8 @@
 
     <!-- I have handled the text-box length by using the oninput javascript function -->
 
-    <button onclick="add()">Add</button>
-    <p>Sum = <input id="answer" type="number"></p>
+    <button onclick="add()">Divide</button>
+    <p>division = <input id="answer" type="number"></p>
 
 </body>
 
